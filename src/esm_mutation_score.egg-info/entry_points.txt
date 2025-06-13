@@ -1,0 +1,2 @@
+[console_scripts]
+esm-mutate = esm_mutation_score.cli.main:main

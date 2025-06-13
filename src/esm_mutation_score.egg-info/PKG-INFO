@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: esm_mutation_score
+Version: 0.1.0
+Summary: Library for ESM-based antibody mutation scoring and prediction
+Author-email: Shawn Shen <ys.shawn25@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/yshen25/ESM_mutation_score
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=1.10
+Requires-Dist: transformers>=4.25
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: license-file
+
 # ESM Mutation Score
 
 ESM-based toolkit for embedding, scoring, and predicting mutation effects on antibody sequences.

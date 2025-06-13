@@ -1,0 +1,11 @@
+torch>=1.10
+transformers>=4.25
+numpy
+pandas
+scikit-learn
+tqdm
+
+[dev]
+pytest
+black
+mypy
